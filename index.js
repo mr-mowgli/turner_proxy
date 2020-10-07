@@ -13,4 +13,4 @@ app.get('/info', (req, res, next) => {
 
 app.listen(PORT, HOST, () => {
   console.log(`Starting Proxy at ${HOST}:${PORT}`);
-})
+});
