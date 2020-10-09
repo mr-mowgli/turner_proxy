@@ -1,9 +1,10 @@
 const express = require('express');
+const cors = require('cors');
 
 const app = express();
+app.use(cors());
 
 const PORT = 3000;
-const HOST = 'localhost';
 
 app.use(express.static(__dirname));
 
@@ -15,6 +16,6 @@ app.get('/*', (req, res) => {
   res.sendFile(__dirname + '/index.html');
 });
 
-app.listen(PORT, HOST, () => {
-  console.log(`Starting Proxy at ${HOST}:${PORT}`);
+app.listen(PORT, () => {
+  console.log(`Starting Proxy at Port: ${PORT}`);
 });
