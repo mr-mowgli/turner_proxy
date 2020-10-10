@@ -1,0 +1,9 @@
+#recommended-products-div {
+  margin-left: 8%;
+}
+
+.spacer {
+  width: 8%;
+  max-width: 150px;
+  min-width: 0px;
+}

@@ -2,14 +2,14 @@
 <html>
   <head>
     <title>TarJay App</title>
-    <!-- <link rel="stylesheet" type="text/css" href="http://localhost:3001/style.css">-->
+    <!--<link rel="stylesheet" type="text/css" href="main.css">-->
     <link rel="stylesheet" type="text/css" href="http://localhost:3004/style.css">
     <link rel="icon" type="image/png" href="https://assets.targetimg1.com/static/images/favicon-96x96.png"/>
   </head>
 
   <body>
-    <div class="1-grid" style="display: flex; justify-content: center;">
-    <img src='./target-header.jpg'/>
+    <div class="1-grid" style="display: flex; margin-left: -100px; justify-content: center;">
+	    <img src='./target-header.jpg'/>
     </div>
     <div class="1-grid" style="display: flex; justify-content: center;">
       <div class="2-grid" style="display: flex; flex-direction: row;">
@@ -17,10 +17,13 @@
         <div id='ProductOptions'></div>
       </div>
     </div>
-    <div class="1-grid" style="display: flex; justify-content: center;">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <div class="1-grid" id="recommended-products-div" style="display: flex; justify-content: center; margin-left: -100px;">
+	   <!-- <div class="spacer"></div>-->
       <div id='RecommendedProducts'></div>
+      <!--<div class="spacer"></div>-->
     </div>
-    <div class="1-grid" style="display: flex; justify-content: center;">
+    <div class="1-grid" style="display: flex; justify-content: center; margin-left: -100px;">
       <div id='reviews'></div>
     </div>
     <!-- Image Carousel: -->
