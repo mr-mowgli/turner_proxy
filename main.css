@@ -1,0 +1,9 @@
+.solo-grid {
+  display: flex;
+  @media screen and (min-width: 1381px) {
+    justify-content: center;
+  }
+  @media screen and (max-width: 1380px) {
+    align-items: left;
+    }
+}
